@@ -39,7 +39,7 @@ namespace _2324_2Y_2A_IntegProg_LoginSampleLINQ
     #endregion
 		
 		public LoginSampleDataContext() : 
-				base(global::_2324_2Y_2A_IntegProg_LoginSampleLINQ.Properties.Settings.Default._2324_1A_LoginSampleConnectionString, mappingSource)
+				base(global::_2324_2Y_2A_IntegProg_LoginSampleLINQ.Properties.Settings.Default._2324_1A_LoginSampleConnectionString1, mappingSource)
 		{
 			OnCreated();
 		}

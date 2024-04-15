@@ -29,7 +29,7 @@ namespace _2324_2Y_2A_IntegProg_LoginSampleLINQ
             InitializeComponent();
 
             _lsDC = new LoginSampleDataContext(
-                Properties.Settings.Default._2324_1A_LoginSampleConnectionString);
+                Properties.Settings.Default._2324_1A_LoginSampleConnectionString1);
         }
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
@@ -69,8 +69,7 @@ namespace _2324_2Y_2A_IntegProg_LoginSampleLINQ
 
                 if(loginFlag)
                 {
-                    MessageBox.Show($"Login success! Welcome back {userName}!");
-                    Window1 w1 = new Window1();
+                    Window1 w1 = new Window1(userName);
                     w1.Show();
                     this.Close();
                 }
